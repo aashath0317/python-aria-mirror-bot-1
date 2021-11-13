@@ -26,7 +26,7 @@ COPY . .
 COPY netrc /root/.netrc
 RUN chmod +x aria.sh
 
-RUN git clone -b master https://github.com/afdulfauzan/python-aria-mirror-bot /root/bot
+RUN git clone -b master https://github.com/aashath0317/python-aria-mirror-bot-1 /root/bot
 RUN mkdir /root/bot/bin/
 WORKDIR /root/bot/
 
